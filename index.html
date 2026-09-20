@@ -3,6 +3,7 @@
 <html>
 <head>
     <title>Nova Games | Home</title>
+
     <style>
         body {
             background-color: #000;
@@ -13,13 +14,13 @@
         }
 
         header {
-            background: #080808;
+            background: #111;
             padding: 20px;
-            border-bottom: 4px solid #7b2cff;
+            border-bottom: 4px solid #6a5cff;
         }
 
         .logo {
-            color: #4da6ff;
+            color: #7c5cff;
             font-size: 35px;
             letter-spacing: 2px;
             text-transform: uppercase;
@@ -38,16 +39,13 @@
         }
 
         nav a:hover {
-            color: #7b2cff;
+            color: #6a5cff;
         }
 
         .hero {
             padding: 80px 20px;
             background:
-                linear-gradient(
-                    rgba(0,0,0,0.85),
-                    rgba(10,0,25,0.95)
-                ),
+                linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.9)),
                 url('https://unsplash.com');
             background-size: cover;
         }
@@ -56,24 +54,24 @@
             max-width: 800px;
             margin: 40px auto;
             padding: 30px;
-            background: #0d0d0d;
-            border-left: 5px solid #4da6ff;
+            background: #111;
+            border-left: 5px solid #6a5cff;
             text-align: left;
             line-height: 1.6;
         }
 
         .dev-section {
-            background: linear-gradient(145deg, #111, #14001f);
-            border-left: 5px solid #7b2cff;
+            background: linear-gradient(145deg, #111, #351c55);
+            border-left: 5px solid #7c5cff;
         }
 
         .credits-section {
-            background: #080808;
-            border-left: 5px solid #4da6ff;
+            background: #0a0a0a;
+            border-left: 5px solid #8a4fff;
         }
 
         .description-box h2 {
-            color: #4da6ff;
+            color: #8a6cff;
             margin-top: 0;
             letter-spacing: 2px;
         }
@@ -81,87 +79,5 @@
         .description-box p {
             font-family: Arial, sans-serif;
             color: #ccc;
-            font-size: 15px;
-        }
-
-        .btn-main {
-            background: linear-gradient(90deg, #4da6ff, #7b2cff);
-            color: #fff;
-            padding: 15px 40px;
-            text-decoration: none;
-            font-weight: bold;
-            border-radius: 4px;
-            display: inline-block;
-            margin-top: 20px;
-            text-transform: uppercase;
-            cursor: pointer;
-        }
-
-        .btn-main:hover {
-            background: linear-gradient(90deg, #7b2cff, #4da6ff);
-        }
-
-        .garage-btn {
-            display: inline-block;
-            background-color: #111;
-            color: #fff;
-            padding: 10px 20px;
-            text-decoration: none;
-            border: 2px solid #7b2cff;
-            border-radius: 4px;
-            font-size: 12px;
-        }
-
-        .garage-btn:hover {
-            background-color: #7b2cff;
-        }
-    </style>
-
-    <script>
-        window.history.replaceState(null, "", "https://google.com");
-
-        function checkAccess(destination) {
-            var pass = prompt("ENTER AUTHORIZATION CODE:");
-
-            if (pass === "simplylovely") {
-                window.location.replace(destination);
-            } else {
-                window.location.replace("locked-out.html");
-            }
-        }
-    </script>
-</head>
-
-<body>
-
-    <header>
-        <div class="logo">NOVA GAMES</div>
-
-        <nav>
-            <a onclick="window.location.replace('index.html')">HOME</a>
-            <a onclick="checkAccess('locked.html')">DIRECTORY</a>
-        </nav>
-
-        <a href="https://google.com" class="garage-btn">
-            BACK TO CLASSROOM
-        </a>
-    </header>
-
-    <div class="hero">
-        <h1>SECURE TERMINAL</h1>
-        <p>Advanced Multi-Genre Technical Interface.</p>
-
-        <a onclick="checkAccess('locked.html')" class="btn-main">
-            authorize access
-        </a>
-    </div>
-
-    <!-- ABOUT ME SECTION -->
-    <div class="description-box dev-section">
-        <h2>ABOUT THE DEVELOPER: REHAAN</h2>
-
-        <p>
-            I am a developer driven by technical precision and the laws of
-            the natural world. My passion for <strong>Science</strong>
-            inspires how I build—
+            font-size: 15p
 ```
